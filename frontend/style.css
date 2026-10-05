@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    color: #222;
+}
+
+
+/* Navigation */
+
+header {
+    background: #0b3d91;
+    color: white;
+    padding: 20px 8%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* Hero */
+
+.hero {
+    min-height: 450px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    background: linear-gradient(
+        135deg,
+        #0b3d91,
+        #1976d2
+    );
+
+    color: white;
+}
+
+.hero h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.button {
+    display: inline-block;
+
+    background: white;
+    color: #0b3d91;
+
+    padding: 12px 25px;
+
+    text-decoration: none;
+
+    border-radius: 6px;
+}
+
+
+/* Sections */
+
+section {
+    padding: 60px 8%;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+
+/* Services */
+
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+
+    width: 280px;
+
+    padding: 30px;
+
+    text-align: center;
+
+    border-radius: 10px;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    color: #0b3d91;
+    margin-bottom: 15px;
+}
+
+.card p {
+    margin-bottom: 15px;
+}
+
+
+/* Booking */
+
+#booking {
+    background: white;
+}
+
+form {
+    max-width: 600px;
+
+    margin: auto;
+
+    padding: 30px;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+
+    margin-top: 15px;
+
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 100%;
+
+    padding: 12px;
+
+    margin-top: 7px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+
+    margin-top: 25px;
+
+    padding: 13px;
+
+    border: none;
+
+    background: #0b3d91;
+
+    color: white;
+
+    font-size: 17px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background: #06275f;
+}
+
+
+/* Message */
+
+#message {
+    max-width: 600px;
+
+    margin: 20px auto;
+
+    text-align: center;
+
+    font-weight: bold;
+}
+
+
+/* Contact */
+
+.contact {
+    text-align: center;
+    background: #e8f0fe;
+}
+
+.contact p {
+    margin: 10px;
+}
+
+
+/* Footer */
+
+footer {
+    background: #0b3d91;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+}

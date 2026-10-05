@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cloud Transport</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+
+    <header>
+
+        <div class="logo">
+            Cloud Transport
+        </div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#booking">Booking</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </header>
+
+
+    <!-- Home -->
+
+    <section id="home" class="hero">
+
+        <div>
+
+            <h1>
+                Cloud Based Transport System
+            </h1>
+
+            <p>
+                Book buses, vans and trucks easily from anywhere.
+            </p>
+
+            <a href="#booking" class="button">
+                Book Transport
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Services -->
+
+    <section id="services">
+
+        <h2>Our Transport Services</h2>
+
+        <div id="serviceContainer" class="services">
+
+        </div>
+
+    </section>
+
+
+    <!-- Booking -->
+
+    <section id="booking">
+
+        <h2>Transport Booking</h2>
+
+        <form id="bookingForm">
+
+            <label>Customer Name</label>
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Enter your name"
+                required
+            >
+
+
+            <label>Phone Number</label>
+
+            <input
+                type="tel"
+                id="phone"
+                placeholder="Enter phone number"
+                required
+            >
+
+
+            <label>Transport Type</label>
+
+            <select id="service" required>
+
+                <option value="">
+                    Select Transport
+                </option>
+
+                <option value="Bus">
+                    Bus
+                </option>
+
+                <option value="Truck">
+                    Truck
+                </option>
+
+                <option value="Van">
+                    Van
+                </option>
+
+            </select>
+
+
+            <label>Pickup Location</label>
+
+            <input
+                type="text"
+                id="pickup"
+                placeholder="Enter pickup location"
+                required
+            >
+
+
+            <label>Destination</label>
+
+            <input
+                type="text"
+                id="destination"
+                placeholder="Enter destination"
+                required
+            >
+
+
+            <label>Travel Date</label>
+
+            <input
+                type="date"
+                id="date"
+                required
+            >
+
+
+            <button type="submit">
+                Book Now
+            </button>
+
+        </form>
+
+        <div id="message"></div>
+
+    </section>
+
+
+    <!-- Contact -->
+
+    <section id="contact" class="contact">
+
+        <h2>Contact Us</h2>
+
+        <p>Email: cloudtransport@example.com</p>
+
+        <p>Phone: +91 98765 43210</p>
+
+        <p>Available 24/7</p>
+
+    </section>
+
+
+    <footer>
+
+        <p>
+            © 2026 Cloud Transport System
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
